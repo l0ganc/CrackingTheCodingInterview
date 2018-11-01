@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="219c38e5-0f47-469e-81ac-f74cdd3bdf0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TreesAndGraphs/BuildOrder_4_7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreesAndGraphs/CheckSubTree_4_10_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreesAndGraphs/CheckSumTree_4_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreesAndGraphs/FirstCommonAncestor_4_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreesAndGraphs/PathsWithSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,23 +36,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="97" />
+          <entry key="java" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="97" />
+          <entry key="JAVA" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="28" />
-          <entry key="java" value="22199" />
+          <entry key="java" value="23195" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22199" />
+          <entry key="JAVA" value="23195" />
           <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
@@ -115,11 +112,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TreesAndGraphs/CheckSubTree_4_10_2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="321">
               <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TreesAndGraphs/PathsWithSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,6 +216,7 @@
         <option value="$PROJECT_DIR$/src/TreesAndGraphs/FirstCommonAncestor_4_8.java" />
         <option value="$PROJECT_DIR$/src/TreesAndGraphs/CheckSumTree_4_10.java" />
         <option value="$PROJECT_DIR$/src/TreesAndGraphs/CheckSubTree_4_10_2.java" />
+        <option value="$PROJECT_DIR$/src/TreesAndGraphs/PathsWithSum.java" />
       </list>
     </option>
   </component>
@@ -257,7 +267,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541042884957" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541044855592" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -281,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckSubTree_4_10_2">
+  <component name="RunManager" selected="Application.PathsWithSum">
     <configuration default="true" type="Applet" factoryName="小应用程序">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -348,8 +358,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Traversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreesAndGraphs.Traversals" />
+    <configuration name="PathsWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreesAndGraphs.PathsWithSum" />
       <module name="CrackingTheCodingInterview" />
       <extension name="coverage">
         <pattern>
@@ -398,19 +408,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Traversals" />
       <item itemvalue="Application.ListOfDepth_4_3" />
       <item itemvalue="Application.successor_4_6" />
       <item itemvalue="Application.CheckSumTree_4_10" />
       <item itemvalue="Application.CheckSubTree_4_10_2" />
+      <item itemvalue="Application.PathsWithSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathsWithSum" />
         <item itemvalue="Application.CheckSubTree_4_10_2" />
         <item itemvalue="Application.CheckSumTree_4_10" />
         <item itemvalue="Application.successor_4_6" />
         <item itemvalue="Application.ListOfDepth_4_3" />
-        <item itemvalue="Application.Traversals" />
       </list>
     </recent_temporary>
   </component>
@@ -449,18 +459,18 @@
       <workItem from="1540854262264" duration="324000" />
       <workItem from="1540932995101" duration="338000" />
       <workItem from="1540957056344" duration="2000" />
-      <workItem from="1541038878186" duration="2798000" />
+      <workItem from="1541038878186" duration="3524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61660000" />
+    <option name="totallyTimeSpent" value="62386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17887668" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17887668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -470,12 +480,12 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29285714" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29285714" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.13761468" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33979592" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33979592" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32857144" />
       <window_info anchor="bottom" id="Run with VisualVM" order="10" />
@@ -519,13 +529,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="6612" column="56" selection-start-line="6612" selection-start-column="56" selection-end-line="6612" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/ZeroMatrix.java" />
     <entry file="file://$PROJECT_DIR$/src/package-info.java" />
     <entry file="file://$PROJECT_DIR$/src/CtCILibrary/Trie.java">
@@ -868,6 +871,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreesAndGraphs/PathsWithSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
